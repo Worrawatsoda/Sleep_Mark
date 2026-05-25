@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="110" fill="#085041"/>
+  <circle cx="256" cy="256" r="144" fill="none" stroke="#1D9E75" stroke-width="20"/>
+  <circle cx="256" cy="256" r="144" fill="none" stroke="white" stroke-width="20"
+    stroke-dasharray="452 904" stroke-dashoffset="0" stroke-linecap="round"
+    transform="rotate(-90 256 256)"/>
+  <text x="256" y="236" font-size="72" font-weight="700" text-anchor="middle"
+    fill="white" font-family="system-ui,-apple-system,sans-serif">SLP</text>
+  <text x="256" y="300" font-size="34" text-anchor="middle"
+    fill="#5BC89A" font-family="system-ui,-apple-system,sans-serif" letter-spacing="6">MARK</text>
+</svg>
