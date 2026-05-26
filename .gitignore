@@ -1,5 +1,6 @@
 node_modules/
 dist/
+_serve/
 .DS_Store
 *.local
 .claude/

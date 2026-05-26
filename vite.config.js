@@ -1,19 +1,15 @@
 import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
-  plugins: [react()],
-  server: {
-    port: 3000,
-    // Web Bluetooth works on localhost without HTTPS.
-    // For production deployment, HTTPS is required.
-  },
+  plugins: [vue()],
+  server: { port: 3000 },
   build: {
     rollupOptions: {
       output: {
         manualChunks: {
-          react:    ['react', 'react-dom'],
-          recharts: ['recharts'],
+          vue:       ['vue'],
+          capacitor: ['@capacitor/core'],
         },
       },
     },

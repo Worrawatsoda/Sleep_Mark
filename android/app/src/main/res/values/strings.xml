@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">SLEEPMARK</string>
+    <string name="title_activity_main">SLEEPMARK</string>
+    <string name="package_name">com.sleepmark.app</string>
+    <string name="custom_url_scheme">com.sleepmark.app</string>
+</resources>
